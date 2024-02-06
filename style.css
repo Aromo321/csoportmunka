@@ -1,3 +1,50 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: rgb(193, 93, 93);
+
+}
+.cimsor
+{
+    background-color: rgba(129, 243, 76, 0.25);
+	text-align: center;
+    font-size: 72px;
+    transition: background 3.0s;
+}
+.cimsor:hover
+{
+    
+    background: #0e2823;
+    
+    transition: background 3.0s;
+}
+
+.hasab
+{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    text-align: center;
+}
+
+.tartalom
+{
+    background-color: rgba(76, 185, 243, 0.25);
+	
+}
+.menu
+{
+    
+	background-color: rgba(224, 57, 57, 0.25);
+}
+
 table{
 
     width:80%;
